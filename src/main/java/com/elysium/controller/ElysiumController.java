@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ElysiumController {
 
     @GetMapping("/message")
-    public HelloWorld getMessageR() {
+    public HelloWorld getMessageBean() {
         return new HelloWorld("Hello World from Elysium");
     }
 
